@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 848330866}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1011,6 +1011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidBody: {fileID: 1929898856}
   ballSpeed: 2
+  jumpForce: 3
+  isOnGround: 0
 --- !u!114 &1929898858
 MonoBehaviour:
   m_ObjectHideFlags: 0
